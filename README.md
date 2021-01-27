@@ -6,4 +6,4 @@ This will enable data analists a way to easy explore new datasources without dea
 
 
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![System Architecture](https://github.com/AODBA/Simple-S3-Athena-Redshift/blob/main/Simple-Athena-Redshift.png?raw=true "System Architecture")
