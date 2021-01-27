@@ -8,3 +8,6 @@ This will enable data analists a way to easy explore new datasources without dea
 ## System Architecture
 
 ![System Architecture](https://github.com/AODBA/Simple-S3-Athena-Redshift/blob/main/Simple-Athena-Redshift.png?raw=true "System Architecture")
+
+
+I will be using python [AwsWrangler!](https://aws-data-wrangler.readthedocs.io/en/stable/index.html) for most of the code base. 
