@@ -6,3 +6,4 @@ This will enable data analists a way to easy explore new datasources without dea
 
 
 
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
