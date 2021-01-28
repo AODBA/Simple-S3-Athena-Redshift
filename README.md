@@ -25,10 +25,12 @@ eg:
   "column_name_2": "data_type"
 }
 ```
- If you have the schema in the format, you will need to upload it in the same folder path as the data files with as a `.schema`
+ If you have the schema in the format, you will need to upload it in the same folder path as the data files with as a `.schema`.
+ 
+ Reffer to [Athena Data Types](https://docs.aws.amazon.com/athena/latest/ug/data-types.html) for designing the .schema file
 
 ### Infer Schema - default option if no `.schema` file is provided
-When the schema is infered the data needs to have a Header so the column should reflect the actuall column names. 
+When the schema is infered the data needs to have a Header so the column should reflect the actuall column names.
 Also the data types will be generic.
 
 Expose Parquet file as a Athena/Redshift table with ease, the analist only need to upload the file/files to an s3 bucket.
@@ -41,7 +43,9 @@ eg:
   "column_name_2": "data_type"
 }
 ```
-If you have the schema in the format, you will need to upload it in the same folder path as the data files with as a `.schema`
+If you have the schema in the format, you will need to upload it in the same folder path as the data files with as a `.schema`.
+
+Reffer to [Athena Data Types](https://docs.aws.amazon.com/athena/latest/ug/data-types.html) for designing the .schema file
 
 ### Infer Schema - default option if no `.schema` file is provided
 When the schema is infered the data needs to have a Header so the column should reflect the actuall column names. 
