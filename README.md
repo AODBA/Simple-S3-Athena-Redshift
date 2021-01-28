@@ -11,3 +11,32 @@ This will enable data analists a way to easy explore new datasources without dea
 
 
 I will be using python [AwsWrangler](https://aws-data-wrangler.readthedocs.io/en/stable/index.html) for most of the code base. 
+
+
+## Use Cases:
+
+Expose CSV file as a Athena/Redshift table with ease, the analist only need to upload the file/files to an s3 bucket.
+
+### Provide Schema - a dict should be provided
+eg: 
+```
+{
+  "column_name_1": "data_type",
+  "column_name_2": "data_type"
+}
+```
+ If you have the schema in the format, you will need to upload it in the same folder path as the data files with as a `.schema`
+
+### Infer Schema
+
+Expose Parquet file as a Athena/Redshift table with ease, the analist only need to upload the file/files to an s3 bucket.
+
+### Provide Schema - a dict should be provided
+eg: 
+```
+{
+  "column_name_1": "data_type",
+  "column_name_2": "data_type"
+}
+```
+### Infer Schema
